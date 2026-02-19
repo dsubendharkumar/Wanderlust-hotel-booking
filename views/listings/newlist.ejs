@@ -1,0 +1,53 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+
+<div class="row"  >
+    <div class="col-8 offset-2">
+    <form method="post" action="/listings/new" novalidate class="needs-validation" >
+        
+      <h2> Create New list:</h2>
+        <div class="mb-2">
+            <label for="title" class="form-label" >title</label>
+            <input placeholder="enter the title" class="form-control"  name="listing[title]" required/>
+            <div class="valid-feedback">Title looks good!</div>
+        </div>
+
+        <div class="mb-2">
+            <label for="description" class="form-label" >description</label>
+            <textarea placeholder="enter the description"  class="form-control"  name="listing[description]" type="text" required></textarea>
+            <div class="invalid-feedback">Enter the description</div>
+        </div>
+
+        <div class="mb-2">
+        <label for="image" class="form-label" >image Link</label>
+        <input   class="form-control"  name="listing[image]" type="text"/>
+        </div>
+
+        <div class="row">
+            <div class="mb-2 col-md-4">
+                <label for="price" class="form-label" >Price</label>
+                <input placeholder="enter the price" class="form-control" name="listing[price]" type="number" required/>
+            </div>
+
+            <div class="mb-2 col-md-8">
+            <label for="location" class="form-label" >location</label>
+            <input placeholder="enter the location" class="form-control" name="listing[location]" type="text" required/>
+            <div class="invalid-feedback">Enter the valid location</div>
+            </div>
+        </div>
+
+        <div class="mb-2">
+        
+        <label for="country" class="form-label" >Country</label>
+        <input placeholder="enter the country" class="form-control" name="listing[country]" type="text" required/>
+        <div class="invalid-feedback">Enter the valid country</div>
+        </div>
+
+        <br><br>
+        <button class="btn btn-dark btn-color ">submit</button>
+        <br><br>
+        
+    </form>
+    </div>
+</div>    
+</body>

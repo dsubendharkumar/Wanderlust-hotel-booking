@@ -1,0 +1,144 @@
+a,a:active,a.visited{
+    color: blue;
+}
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:0;
+    padding-bottom:45px;
+    height: 100vh;
+    
+
+ 
+}
+
+h1,h2,h3,p{
+
+    margin:6px 0;
+}
+
+.container{
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+
+.fa-solid{
+    color:red;
+    margin-right:  10px;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222 ! important;
+}
+
+.navbar{
+    height: 4rem;
+    background-color: white;
+}
+
+.listing-card{
+   
+    
+    
+    margin-bottom: 20px;
+    border:none  !important;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100%;
+    object-fit: cover !important;
+
+}
+
+.row{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.more{
+    text-decoration: none; 
+}
+
+.card-img-overlay{
+    opacity: 0;
+
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.form-label{
+    
+    line-height: 0;
+
+}
+.form-control{
+    margin-top: 0;
+}
+
+.row{
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.btn-color{
+    background-color:red !important;
+    border: none !important;
+    margin-bottom: 2rem ; 
+}
+
+.show-img{
+    max-height: 250px;
+    object-fit:cover;
+    width:100%;
+    
+}
+
+.btns{
+    display: flex;
+    margin-top: 0;
+    
+}
+
+footer {
+  
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  padding: 20px 0;              /* controls height */
+  line-height: 1.6;            /* kills extra vertical space */
+  
+  background: #f8f9fa;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* remove default margins */
+footer div {
+  margin: 2px 0;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 0 6px;
+  color: #222;
+}
+
+/* icon size controls footer height */
+footer i {
+  font-size: 18px;
+  background-color: #ddd;
+  color: #222;
+}
+
+
+
